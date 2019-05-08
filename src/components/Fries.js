@@ -1,6 +1,6 @@
 import React, { useContext, useReducer } from "react";
 import { ApplicationState } from "../index";
-import { ResetButton } from "./ItemTile";
+import { ResetButton } from "../SharedStyles";
 
 const Fries = () => {
   const { GlobalState, burgerAndFriesReducer } = useContext(ApplicationState);
@@ -13,7 +13,7 @@ const Fries = () => {
         <p>Fries Count: {state.fries} </p>
       </div>
 
-      <div>
+      <div style={{ margin: "4rem 0" }}>
         <ResetButton onClick={() => dispatch({ type: "resetFries" })}>
           Reset Fries
         </ResetButton>

@@ -1,7 +1,4 @@
-import React from "react";
 import styled from "@emotion/styled";
-import Hamburger from "./Hamburger";
-import Fries from "./Fries";
 
 export const ResetButton = styled.div`
   width: 20rem;
@@ -16,14 +13,14 @@ export const ResetButton = styled.div`
   }
 `;
 
-const ItemsWrapper = styled.div`
+export const FoodItemsWrapper = styled.div`
   display: flex;
   margin: 2.2rem;
   font-family: "ZCOOL KuaiLe", cursive;
   flex-wrap: wrap;
 `;
 
-const Item = styled.div`
+export const FoodItem = styled.div`
   border: 1px solid black;
   box-shadow: 3px 4px 5px -2px rgba(0, 0, 0, 0.75);
   padding: 2.2rem;
@@ -41,18 +38,3 @@ const Item = styled.div`
     cursor: pointer;
   }
 `;
-
-const ItemTile = () => {
-  return (
-    <ItemsWrapper>
-      <Item>
-        <Hamburger />
-      </Item>
-      <Item>
-        <Fries />
-      </Item>
-    </ItemsWrapper>
-  );
-};
-
-export default ItemTile;

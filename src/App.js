@@ -1,10 +1,10 @@
 import React from "react";
-import ItemTile from "./components/ItemTile";
+import FoodItemTile from "./components/FoodItemTile";
 
 function App() {
   return (
     <div>
-      <ItemTile />
+      <FoodItemTile />
     </div>
   );
 }
