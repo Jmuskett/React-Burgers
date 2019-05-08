@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { ApplicationState } from "./index";
+import React from "react";
 import ItemTile from "./components/ItemTile";
 
 function App() {

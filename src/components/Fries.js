@@ -7,7 +7,7 @@ const Fries = () => {
 
   return (
     <div>
-      <p onClick={() => dispatch({ type: "fries" })}>{`\u{1F35F}`}</p>
+      <h1 onClick={() => dispatch({ type: "fries" })}>{`\u{1F35F}`}</h1>
       <p>Fries Count: {state.fries} </p>
     </div>
   );
