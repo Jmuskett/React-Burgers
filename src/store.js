@@ -1,4 +1,4 @@
-export const GlobalState = {
+export const globalState = {
   hamburgers: 0,
   fries: 0
 };

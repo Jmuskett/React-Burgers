@@ -3,8 +3,8 @@ import { ApplicationState } from "../index";
 import { ResetButton } from "../SharedStyles";
 
 const Fries = () => {
-  const { GlobalState, burgerAndFriesReducer } = useContext(ApplicationState);
-  const [state, dispatch] = useReducer(burgerAndFriesReducer, GlobalState);
+  const { globalState, burgerAndFriesReducer } = useContext(ApplicationState);
+  const [state, dispatch] = useReducer(burgerAndFriesReducer, globalState);
 
   return (
     <>
